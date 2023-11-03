@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+  
+@font-face {
+   font-family: 'Gilmer Heavy';
+   src: url(fonts/Gilmer-Heavy.otf);
+}
+  
+@font-face {
+  font-family: 'JosefinSans Bold';
+  src: url(fonts/JosefinSans-Bold.ttf);
+}
+  
+@font-face {
+  font-family: 'JosefinSans Regular';
+  src: url(fonts/JosefinSans-Regular.ttf);
+}
+  
+html,body {
+  margin: 0;
+  padding: 0;
+  background-color:  #FFFAED;
+}
+
+/* blok */
+
+article{
+    background-color: #FFFAED;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 20em;
+    border-radius: 20px;
+    box-shadow: 0 0px 30px rgb(0 0 0 / 0.1);
+}
+
+article img{
+   margin: 1.5em;
+}
+
+article h1{
+    font-family: Gilmer Heavy;
+    color: #131F48;
+    font-size: 32px;
+    margin: 0px;
+}
+
+article p{
+    font-family: JosefinSans Regular;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #131F48;
+    margin: 0px;
+}
+
+article div{
+    background-color: #FFFAED;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 0 0px 30px rgb(0 0 0 / 0.1);
+}
+
+/* blok */
